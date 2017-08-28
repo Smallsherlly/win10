@@ -1,0 +1,11 @@
+drop table user_login_info_detail;
+create table user_login_info_detail
+(
+	sql_id INT AUTO_INCREMENT primary key,
+	userid varchar(32),
+	ip varchar(257),
+	logintime decimal(20),
+	logouttime decimal(20),
+	durations BIGINT
+);
+
